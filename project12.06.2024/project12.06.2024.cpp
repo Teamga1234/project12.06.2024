@@ -213,7 +213,7 @@ int main()
             cout << "|                     MENU                    |\n";
             cout << "+++++++++++++++++++++++++++++++++++++++++++++++\n";
             cout << "| 0 - Exit                                    |\n";
-            cout << "| 1 - Find songs by name                      |\n";
+            cout << "| 1 - Find song by name                       |\n";
             cout << "| 2 - Show all songs                          |\n";
             cout << "| 3 - Show all unused songs                   |\n";
             cout << "| 4 - Find songs by number                    |\n";
