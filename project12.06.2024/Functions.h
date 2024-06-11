@@ -26,3 +26,15 @@ void addItemBack(T*& arr, int& size, T value)
 }
 
 
+
+template <typename T>
+void addItemBack2(T*& arr, int& size, const T& value) {
+	T* tmp = new T[size + 1];
+	for (int i = 0; i < size; i++) {
+		tmp[i] = arr[i];
+	}
+	tmp[size] = value;
+	delete[] arr;
+	arr = tmp;
+	size++;
+}

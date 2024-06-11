@@ -1,7 +1,7 @@
 #pragma once
 #include "structs_of_info_disk.h"
 #include "Functions.h"
-
+using namespace std;
 
 struct song {
 	short type_song = 0; //0 - free, 1 - rent, 2 - sold
@@ -10,8 +10,8 @@ struct song {
 	char author_name[50] = "";
 	unsigned short year_of_create = 2024;
 	unsigned short price_of_song = 0;
-	disc_rental person_r = { "", "", "", {0, 0, 0}, {0, 0, 0}, 0 };
-	owner_disk person_o = { "", {0, 0, 0} };
+	disc_rental person_r = { "1", "1", "1", {0, 0, 0}, {0, 0, 0}, 0 };
+	owner_disk person_o = { "1", {0, 0, 0} };
 	void fill_song_form()
 	{
 		cout << "Enter song title: ";

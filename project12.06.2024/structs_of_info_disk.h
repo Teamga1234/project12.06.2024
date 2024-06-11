@@ -43,7 +43,7 @@ struct disc_rental {
 
 		cout << "\tTemp_owner: " << temp_owner << endl;
 		cout << "\tAddress: " << address << endl;
-		cout << "\tAddress: " << phone_temp_owner << endl;
+		cout << "\tPhone: " << phone_temp_owner << endl;
 		cout << "\tDate_from: " << date_from.toString("%Y %m %d") << endl;
 		cout << "\tDate_to: " << date_to.toString("%Y %m %d") << endl;
 		cout << "\tPrice_rental: " << price_rental << "$\n\n";
