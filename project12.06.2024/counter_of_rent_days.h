@@ -16,7 +16,7 @@ int getDaysInMonth(int month, int year) {
     switch (month) {
     case 1: return 31;
     case 2: return isLeapYear(year) ? 29 : 28;
-    case 3: return 31;
+    case 3: return 31; 
     case 4: return 30;
     case 5: return 31;
     case 6: return 30;
