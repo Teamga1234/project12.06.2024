@@ -176,7 +176,7 @@ int main()
         sizesFile.close();
     }
     else {
-        cout << "Unable to open sizes.txt for reading." << endl;
+        cout << "Error" << endl;
         size_of_songs = 0; 
     }
     ifstream sizes2File("sizes2.txt");
@@ -185,7 +185,7 @@ int main()
         sizes2File.close();
     }
     else {
-        cout << "Unable to open sizes2.txt for reading." << endl;
+        cout << "Error" << endl;
         numbers_for_songs = 0;  
     }
     int index = -1;
